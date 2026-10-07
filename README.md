@@ -8,7 +8,6 @@ Sirve para anotar cosas que tienes que hacer, organizarlas por temas y dificulta
 
 ## ¿Cómo funciona el código de JavaScript (`aprender.js`) en cristiano?
 
-Como estás empezando a aprender, te explico paso a paso qué hace cada pedacito de código:
 
 ### 1. `let tasks = JSON.parse(localStorage.getItem("tasks")) || []`
 Aquí cargamos las tareas que ya teníamos guardadas antes en el navegador. Si no hay nada guardado, arrancamos con una lista vacía `[]`.
