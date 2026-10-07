@@ -1,0 +1,25 @@
+body {
+    background-color: #121417;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important;
+}
+
+.task-completed {
+    opacity: 0.65;
+    text-decoration: line-through;
+}
+
+/* Custom styles for inputs and selects */
+.form-control:focus, .form-select:focus {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    color: #fff !important;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) !important;
+}
